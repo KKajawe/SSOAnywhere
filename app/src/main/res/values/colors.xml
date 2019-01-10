@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorAccentGrey">#ebebeb</color>
+    <color name="tablayoutcolor">#d9d9d9</color>
+    <color name="white">#ffffff</color>
+    <color name="timestamp">#a0a3a7</color>
+    <color name="onimagebutton_color">#39ac39</color>
+    <color name="read_more_imagebutton_color">#ff751a</color>
+    <color name="comapany_name_color">#353433</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="black">@color/colorPrimaryDark</color>
+    <color name="loginorange">#fc5e22</color>
+    <color name="logingrey">#f5f7f9</color>
+</resources>

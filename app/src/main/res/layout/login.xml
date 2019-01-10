@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccentGrey"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:contentPadding="@dimen/cardview_compat_inset_shadow"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardElevation="@dimen/cardview_compat_inset_shadow"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="1dp"
+                    android:text="SSO LOGIN"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:id="@+id/layoutedt_username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bordergrey"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/iconedt_username"
+                            android:layout_width="40dp"
+                            android:layout_height="42dp"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:src="@drawable/inactiveuser" />
+
+                        <EditText
+                            android:id="@+id/edt_username"
+                            android:layout_width="230dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/border_selector_edittext"
+                            android:gravity="left|center"
+                            android:hint="Enter SGID"
+                            android:imeOptions="actionNext"
+                            android:inputType="textCapCharacters"
+                            android:nextFocusDown="@+id/layoutedt_password"
+                            android:paddingLeft="5dp"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+
+                    <LinearLayout
+                        android:id="@+id/layoutedt_password"
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bordergrey"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/iconedt_password"
+                            android:layout_width="40dp"
+                            android:layout_height="42dp"
+                            android:padding="10dp"
+                            android:src="@drawable/inactivelock" />
+
+                        <EditText
+                            android:id="@+id/edt_password"
+                            android:layout_width="230dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="2dp"
+                            android:background="@drawable/border_selector_edittext"
+                            android:gravity="left|center"
+                            android:hint="Password"
+                            android:imeOptions="actionDone"
+                            android:inputType="textPassword"
+                            android:paddingLeft="5dp"
+                            android:textColorHint="#999"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="15dp">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/loginbuttondrawable">
+
+                        <TextView
+                            android:id="@+id/txt_connection"
+                            android:layout_width="200dp"
+                            android:layout_height="40dp"
+                            android:gravity="center"
+                            android:padding="2dp"
+                            android:text="LOGIN"
+                            android:textColor="#ffffff"
+                            android:textColorHint="#999"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/errorText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/enterpassword"
+                        android:textColor="@color/colorAccent"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

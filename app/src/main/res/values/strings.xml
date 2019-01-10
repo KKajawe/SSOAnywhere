@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SSOLogin</string>
+    <string name="clientId">Indec_QB</string>
+    <string name="clientSecret">272sqToLimhvjkzFNFpA</string>
+
+    <string name="enterpassword">Enter valid password.</string>
+    <string name="enterusername">Enter valid SGID.</string>
+    <string name="unautherized">Incorrect username or password.</string>
+    <string name="defaultLoginMsg">Credentials are inaccessible, please contact app admin.</string>
+    <string name="networkerror">No data found. Please check network connection and try again.</string>
+    <string name="server_unavailable">Service unavailable. Please try again later.</string>
+    <string name="ok">OK</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SSOAnywhere</string>
+    <string name="authorize_refreshTokenUrl">https://cloudsso.saint-gobain.com/openam/oauth2/access_token</string>
+</resources>
